@@ -1,4 +1,5 @@
 #include <iostream>
+#include<string>
 
 using namespace std;
 
@@ -45,6 +46,68 @@ int main()
 //    int p=0;
 //    p|=2;
 //    cout<<p;
-int
+
+            /*        String          */
+
+//    string big="Hello";
+//    cout<<big;
+
+//    string firstName="Rahat";
+//    string lastName="Ahmed";
+
+//    string fullName=firstName+" "+lastName;    //concatenation
+//    cout<<fullName;
+//    string fullName=firstName.append(lastName); //concatenate
+
+//    string value1="20";
+//    string value2="23";
+//    string totalValue=value1+value2;
+//    cout<<totalValue;
+
+//    string name="RahatAhmed";
+//    cout<<"The length of a name string is: "<<name.length(); //length or size
+//    cout<<"The size of a name string is: "<<name.size();       //size is similar to length
+
+//    string name="Rahat";
+//    cout<<name[3];  //access string
+//    string mystring="Bipger";
+//    string yourstring=mystring;
+//    yourstring[2]='g';
+//    cout<<mystring<<"\n";
+//    cout<<yourstring;
+
+             /* C++ Special Characters */
+
+//    string mystring="Rahat \"is my name\"  ";
+//    cout<<mystring;
+//    string mystring ="it\'s okay my boy ";
+//    cout<<mystring;
+
+        /*  C++ User Input Strings  */
+//        string Name;
+//        cout<<"Enter your Name: ";
+//        cin>>Name;
+//        cout<<"This your Name: "<<Name;
+      string name;
+      cout<<"Enter your name: ";
+      getline(cin,name);
+      cout<<name;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     return 0;
 }
