@@ -88,13 +88,47 @@ int main()
 //        cout<<"Enter your Name: ";
 //        cin>>Name;
 //        cout<<"This your Name: "<<Name;
-      string name;
-      cout<<"Enter your name: ";
-      getline(cin,name);
-      cout<<name;
+//      string name1;
+//      cout<<"Enter your name: ";
+//      getline(cin,name); // getline use for read a proper line then output
+//      cout<<name;
+
+             /*   Short Hand If...Else (Ternary Operator)     */
+//
+//     int value=20;
+//     string result=(value>=18)? "Yes":"No";
+//     cout<<result;
+
+             /*     C++ Switch Statements     */
+
+      int Day=5;
+      switch(Day){
+        case 1:
+        cout<<"Saturday";
+        break;
+        case 2:
+        cout<<"Sunday";
+        break;
+        case 3:
+        cout<<"Monday";
+        break;
+        case 4:
+        cout<<"Tuesday";
+        break;
+        case 5:
+        cout<<"Wednesday";
+        break;
+        case 6:
+        cout<<"Thursday";
+        break;
+        case 7:
+        cout<<"Friday";
+        break;
 
 
 
+
+      }
 
 
 
