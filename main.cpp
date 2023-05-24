@@ -128,8 +128,34 @@ int main()
 //
 //
 //
-//      }
+//   }
 
+                 /*    Loop    */
+//
+//    int value=0;
+//    while(value<5){
+//        cout<<value<<"\n";
+//        value++;
+//    }
+//
+//    int value=0;
+//    do{
+//        cout<<value<<"\n";
+//        value++;
+//    }
+//    while(value<5);
+
+//    for(int i=0;i<6;i++){
+//        cout<<i<<"\n";
+//    }
+
+    for(int i=1;i<=2;i++){
+        cout<<"Outer Loop :"<<i<<"\n";
+        for(int j=1;j<=3;j++){
+            cout<<"Inner Loop:"<<i<<"\n";
+        }
+     cout<<"\n";
+    }
 
 
 
