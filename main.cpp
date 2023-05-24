@@ -149,13 +149,14 @@ int main()
 //        cout<<i<<"\n";
 //    }
 
-    for(int i=1;i<=2;i++){
-        cout<<"Outer Loop :"<<i<<"\n";
-        for(int j=1;j<=3;j++){
-            cout<<"Inner Loop:"<<i<<"\n";
-        }
-     cout<<"\n";
-    }
+//    for(int i=1;i<=2;i++){
+//        cout<<"Outer Loop :"<<i<<"\n";
+//        for(int j=1;j<=3;j++){
+//            cout<<"Inner Loop:"<<i<<"\n";
+//        }
+//     cout<<"\n";
+//    }
+
 
 
 
