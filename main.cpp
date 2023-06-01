@@ -157,16 +157,47 @@ int main()
 //     cout<<"\n";
 //    }
 
-       int i = 0;
-        while (i < 10) {
-          if (i == 4) {
-            i++;
-            continue;
+//       int i = 0;
+//        while (i < 10) {
+//          if (i == 4) {
+//            i++;
+//            continue;
+//
+//          }
+//          cout << i << "\n";
+//          i++;
+//        }
 
-          }
-          cout << i << "\n";
-          i++;
-        }
+
+                    /*     Array     */
+
+//        string mystring[]={"Red","White","Black","Blue"};
+//        mystring [0]="Orange";
+//        cout<<mystring[0];
+
+//    int value[5]={10,20,30,40,50};
+//    for(int i=0;i<5;i++){
+//        cout<<value[i]<<"\n";
+//    }
+
+//    int myNumbers[5] = {10, 20, 30, 40, 50};
+//    int getArrayLength = sizeof(myNumbers) / sizeof(int);
+//    cout << getArrayLength;
+
+             /*  pointer  */
+
+    //    char q;
+    //    char *p;
+    //    q='A';
+    //    p=&q;
+    //    cout<<p;
+    int *p,q;
+    q=199;
+    p=&q;
+    cout<<*p<<"\n";
+    cout<<p;
+
+
 
 
 
